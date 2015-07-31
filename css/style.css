@@ -47,7 +47,13 @@ h2, h3, h4, h5 {
   padding-left: 5%;
   padding-right: 5%;
 }
+.course-url {
+  margin-top: 1px;
+}
 
+#skills{
+  flex-direction: column;
+}
 
 .date-text {
   font-style: italic;
@@ -114,9 +120,9 @@ a {
   background-color: #4A4A4A;
 }
 
-/* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  /*background-color: #484848;*/
+  background-image: url(/frontend-nanodegree-resume/images/header_background.jpg);
 }
 
 .flex-box {
@@ -164,6 +170,7 @@ img {
 
 span {
   padding: 5px;
+  color: #f3f3f3;
 }
 
 #letsConnect {
