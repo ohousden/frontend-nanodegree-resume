@@ -4,7 +4,7 @@ var data = ('%data%');
 
 var bio = {
     "name": "Owen Housden",
-    "role": "Front-End Developer",
+    "role": "Web Developer",
     "image": "https://placeimg.com/300/300/people",
     "welcomeMessage": "Hello, here is my welcome message",
     "contacts": {
@@ -56,16 +56,23 @@ var work = {
         {
             "employer": "Capital One",
             "title": "QA Analyst",
-            "location": "Goochland, Va",
-            "dates": "2012-2015",
+            "location": "15020 Capital One Drive, Henrico VA",
+            "dates": "2014-Present",
             "description": "Sed vel justo eu sem euismod vulputate. Suspendisse dapibus vitae nibh nec lobortis. Quisque mattis lacus turpis, vel sagittis tortor tempus sit amet. Aliquam erat."
         },
         {
+            "employer": "ICONMA, LLC",
+            "title": "Quality Assurance Analyst",
+            "location": "15020 Capital One Drive, Henrico VA",
+            "dates": "2013-2014",
+            "description": "Regression testing of Capital One's online servicing web application, Logged and maintained defects found during testing, Maintain test data to meet testing requirements, Work on Agile teams to more effectively complete work, Write Ruby automation test scripts for new functionality testing"
+        },
+        {
             "employer": "G4S",
-            "title": "Security Officer",
-            "location": "Henrico, Va",
-            "dates": "2005-2012",
-            "description": "In congue orci turpis, vitae viverra magna volutpat eget. Duis molestie eros quis sem posuere, at hendrerit ligula rutrum. Maecenas in condimentum libero. Quisque facilisis."
+            "title": "Critical Facility Officer",
+            "location": "8097 Villa Park Drive, Richmond, VA",
+            "dates": "2008-2013",
+            "description": "Monitor access control, guard docks and patrol a high-rise facility in a highly secured environment., Protect highly sensitive data banks by utilizing foot patrols and strict access control., Monitor cameras and alarms in a control room., Maintaining daily activity logs on the computer."
         }
 
     ]
@@ -80,6 +87,8 @@ work.display = function () {
         $(".work-entry:last").append(formattedEmployerTitle);
         var formattedDates = HTMLworkDates.replace(data, work.jobs[job].dates);
         $(".work-entry:last").append(formattedDates);
+        var formattedLocation = HTMLworkLocation.replace(data, work.jobs[job].location);
+        $(".work-entry:last").append(formattedLocation);
         var formattedDescription = HTMLworkDescription.replace(data, work.jobs[job].description);
         $(".work-entry:last").append(formattedDescription);
     }
@@ -145,16 +154,16 @@ var education = {
     ],
     "onlineCourses": [
         {
-            "title": "online course 1 title",
-            "school": "school for online course 1",
-            "dates": "dates for course 1",
-            "url": "www.google.com"
+            "title": "Front-End Developer NanoDegree",
+            "school": "Udacity",
+            "dates": "May 2015 - November 2015",
+            "url": "www.udacity.com"
         },
         {
-            "title": "online course 2 title",
-            "school": "school for online course 2",
-            "dates": "dates for course 2",
-            "url": "www.google.com"
+            "title": "Javascript Fundamentals",
+            "school": "Codecademy",
+            "dates": "May 2015",
+            "url": "www.codecademy.com"
         },
         {
             "title": "online course 3 title",
