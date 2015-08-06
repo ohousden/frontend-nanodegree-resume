@@ -54,7 +54,7 @@ var work = {
     "jobs": [
         {
             "employer": "Capital One",
-            "title": "QA Analyst",
+            "title": "Test Automation Engineer",
             "location": "15020 Capital One Drive, Henrico VA",
             "dates": "2014-Present",
             "description": "Sed vel justo eu sem euismod vulputate. Suspendisse dapibus vitae nibh nec lobortis. Quisque mattis lacus turpis, vel sagittis tortor tempus sit amet. Aliquam erat."

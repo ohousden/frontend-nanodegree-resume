@@ -13,6 +13,11 @@
   padding-right: 5%;
 }
 
+#main {
+  max-width: 1200px;
+  margin: auto;
+}
+
 h1 {
   font-size: 40px;
   color: #F5A623;
@@ -120,11 +125,18 @@ a {
   background-color: #4A4A4A;
 }
 
+.white {
+  background-color: white;
+}
+
 #header {
   /*background-color: #484848;*/
   background-image: url(/frontend-nanodegree-resume/images/header_background.jpg);
 }
 
+#footerContacts {
+  background-image: url(/frontend-nanodegree-resume/images/header_background.jpg);
+}
 .flex-box {
   display: -webkit-flex;
   display: flex;

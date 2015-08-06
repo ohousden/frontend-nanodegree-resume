@@ -72,14 +72,9 @@ $(document).click(function (loc) {
     logClicks(x, y)
 });
 
-
-var map;    // declares a global map variable
-
-
+var map;
 function initializeMap() {
-
     var locations;
-
     var mapOptions = {
         disableDefaultUI: true
     };
@@ -95,9 +90,7 @@ function initializeMap() {
         }
         return locations;
     }
-
     function createMapMarker(placeData) {
-
         var lat = placeData.geometry.location.lat();  // latitude from the place service
         var lon = placeData.geometry.location.lng();  // longitude from the place service
         var name = placeData.formatted_address;   // name of the place from the place service
@@ -128,7 +121,6 @@ function initializeMap() {
         }
     }
 
-
     function pinPoster(locations) {
 
         var service = new google.maps.places.PlacesService(map);
@@ -143,11 +135,9 @@ function initializeMap() {
     window.mapBounds = new google.maps.LatLngBounds();
     locations = locationFinder();
     pinPoster(locations);
-
 }
 
 window.addEventListener('load', initializeMap);
-
 window.addEventListener('resize', function (e) {
     map.fitBounds(mapBounds);
 });
