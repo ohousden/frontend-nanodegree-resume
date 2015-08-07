@@ -96,7 +96,7 @@ work.display = function () {
 var projects = {
     "projects": [
         {
-            "title": "Project Title 1",
+            "title": "Portfolio Page",
             "dates": "01/15/2014 - 01/25/2014",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget sodales arcu, at porta lectus. Vestibulum in purus tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras eleifend ex at arcu maximus gravida. Sed pellentesque auctor ligula, vitae volutpat lectus rhoncus quis. Suspendisse vehicula nibh lectus, at aliquet risus ultrices at. Mauris at condimentum magna. Nulla sed aliquet nunc, at aliquet enim. Vivamus non justo ut sem varius scelerisque. Donec dictum ligula at ante tincidunt, ac commodo est fringilla. Nulla vel nisi a erat porta fringilla. Nullam nec leo sed leo tristique ornare ac ac tortor. Mauris dignissim nunc in libero accumsan, et dictum neque rutrum. Phasellus et odio malesuada, tempor neque eu, porta orci. Etiam ullamcorper viverra nibh, et efficitur metus efficitur eu. Quisque risus eros, tincidunt vel libero sed, congue hendrerit lacus.",
             "images": [
